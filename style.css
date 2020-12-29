@@ -1,0 +1,109 @@
+body{
+  background-image: url('images/background.jpg');
+  margin: 0;
+  padding: 0;
+}
+
+#navbar{
+  width: 100%;
+  height: 75px;
+  background-color: #1B1B1B;
+  display: grid;
+  grid-template-columns: 1fr 100px 100px 100px 100px 100px;
+  grid-template-rows: 1fr;
+  align-items: center;
+  justify-items: center;
+  z-index: 10;
+}
+
+p{
+  font-family: Roboto;
+  padding: 0;
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+  font-family: Roboto;
+  color: white;
+}
+
+#t{
+  margin-left: 50px;
+  justify-self: start;
+  font-weight: bold;
+  color: white;
+  font-size: 24px;
+}
+
+.labLink:hover{
+  font-size: 20px;
+}
+
+#footer{
+  width: 100%;
+  height: 75px;
+  background-color: #1B1B1B;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  left: 0;
+  bottom: 0;
+  z-index: 10;
+}
+
+#sidebar{
+  width: 300px;
+  height: 100vh;
+  background-color: #171717;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  -webkit-box-shadow: 0px 0px 50px 8px rgba(0,0,0,0.52);
+  box-shadow: 0px 0px 50px 8px rgba(0,0,0,0.52);
+  display: grid;
+  grid-template-rows: 3fr 1fr 1fr 1fr 1fr 3fr;
+  align-items: center;
+  justify-items: center;
+}
+
+#sbA:hover{
+  color: gray;
+}
+
+#main{
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  height: 150vh;
+}
+
+table.blueTable {
+  font-family: Roboto;
+  font-size: 50px;
+  margin-top: 100px;
+  border: 5px solid #1B1B1B;
+  background-color: #EEEEEE;
+  width: 400px;
+  height: 400px;
+  text-align: left;
+  border-collapse: collapse;
+  text-align: center;
+  vertical-align: middle;
+}
+table.blueTable td, table.blueTable th {
+  border: 1px solid #AAAAAA;
+  padding: 0px 0px;
+}
+table.blueTable tfoot .links {
+  text-align: right;
+}
+table.blueTable tfoot .links a{
+  display: inline-block;
+  background: #1C6EA4;
+  color: #FFFFFF;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
